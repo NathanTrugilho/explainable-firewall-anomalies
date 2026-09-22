@@ -40,8 +40,4 @@ while true; do
   
   TIMESTAMP=$(date "+%Y-%m-%d %H:%M:%S")
   echo "[$TIMESTAMP] $PROTO -> $URL | Status: $HTTP_CODE"
-  
-  # Random pause between 0.5 and 2 seconds
-  SLEEP_TIME=$(awk -v min=0.5 -v max=2.0 'BEGIN{srand(); print min+rand()*(max-min)}')
-  sleep "$SLEEP_TIME"
 done

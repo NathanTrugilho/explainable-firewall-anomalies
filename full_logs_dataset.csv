@@ -1,4 +1,4 @@
-action,direction,ttl,protocol,length,label,src_port,dst_port,data_length,tcp_flags
+action,direction,ttl,protocol,length,is_anomaly,src_port,dst_port,data_length,tcp_flags
 block,in,45,tcp,44,1,33385,777,0,S
 block,in,59,tcp,44,1,33385,60887,0,S
 block,in,48,tcp,44,1,33385,17633,0,S

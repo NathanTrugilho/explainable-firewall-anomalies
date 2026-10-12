@@ -16,7 +16,7 @@ HTTP_URL = f"http://{TARGET}"
 HTTPS_URL = f"https://{TARGET}"
 
 WORDLIST = Path("/usr/share/wordlists/dirb/common.txt")
-ATTACK_INTERVAL = 3
+ATTACK_INTERVAL = 0
 REQUEST_TIMEOUT = 5
 
 SQLI_PAYLOADS = [

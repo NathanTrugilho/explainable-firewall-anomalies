@@ -12,6 +12,7 @@ A Computer Engineering cybersecurity final project for detecting firewall traffi
   - [Network Topology](#network-topology)
   - [Firewall Rules](#firewall-rules)
   - [Preprocessing](#preprocessing)
+  - [Random Forest Configuration](#Random-Forest-Configuration)
 - [Evaluation Metrics](#evaluation-metrics)
 - [Project Goal](#project-goal)
 
@@ -89,6 +90,12 @@ User Interface Report
 ### Preprocessing
 
 <!-- Add preprocessing steps and feature engineering explanation here -->
+
+### Random Forest Configuration
+
+<!-- Explain model initialization, hyperparameter tuning, and training process here -->
+
+<!-- Insert relevant code snippets or graphs here -->
 
 ## Evaluation Metrics
 

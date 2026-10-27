@@ -2,6 +2,19 @@
 
 A Computer Engineering cybersecurity final project for detecting firewall traffic anomalies using **Random Forest**, with a locally executed **Large Language Model (LLM)** providing explainable AI explanations for the model’s classification decisions.
 
+## Table of Contents
+
+- [Overview](#overview)
+- [Features](#features)
+- [Pipeline](#pipeline)
+- [Technologies](#technologies)
+- [Research Methodology](#research-methodology)
+  - [Network Topology](#network-topology)
+  - [Firewall Rules](#firewall-rules)
+  - [Preprocessing](#preprocessing)
+- [Evaluation Metrics](#evaluation-metrics)
+- [Project Goal](#project-goal)
+
 ## Overview
 
 The project creates a controlled virtual network environment with **pfSense**, legitimate client traffic, and simulated attacks from **Kali Linux**. Firewall logs are collected, processed, labeled, and used to train a Random Forest classifier.
@@ -49,6 +62,33 @@ User Interface Report
 - Local LLMs (Llama, Mistral, or similar)
 - Virtualization platform
 - Web or desktop interface
+
+## Research Methodology
+
+### Network Topology
+
+<!-- Insert network topology image here -->
+![Network Topology](path/to/image.png)
+
+### Firewall Rules
+
+#### WAN Rules
+
+| Action | Protocol | Source | Port | Destination | Port | Description |
+|---|---|---|---|---|---|---|
+| | | | | | | |
+| | | | | | | |
+
+#### LAN Rules
+
+| Action | Protocol | Source | Port | Destination | Port | Description |
+|---|---|---|---|---|---|---|
+| | | | | | | |
+| | | | | | | |
+
+### Preprocessing
+
+<!-- Add preprocessing steps and feature engineering explanation here -->
 
 ## Evaluation Metrics
 

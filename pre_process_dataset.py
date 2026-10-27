@@ -78,7 +78,7 @@ columns = [
     "dst_port",
     "data_length",
     "tcp_flags",
-    "anomaly",
+    "is_anomaly",
 ]
 
 df_logs = pd.DataFrame(all_logs, columns=columns)

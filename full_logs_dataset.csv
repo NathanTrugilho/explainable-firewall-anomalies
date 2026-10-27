@@ -1,4 +1,4 @@
-action,direction,ttl,protocol,length,dst_port,data_length,tcp_flags,anomaly
+action,direction,ttl,protocol,length,dst_port,data_length,tcp_flags,is_anomaly
 pass,out,64,udp,76,123,56,none,1
 pass,out,64,udp,76,123,56,none,1
 pass,out,64,udp,76,123,56,none,1

@@ -1,0 +1,25 @@
+==================================================
+       RANDOM FOREST PERFORMANCE REPORT           
+==================================================
+
+Accuracy:                  0.919708
+Precision (Anomaly):       0.999128
+Recall / Sensitivity:      0.844743
+F1-Score (Anomaly):        0.915472
+F1-Score (Macro):          0.919505
+ROC-AUC Score:             0.959811
+PR-AUC (Avg Precision):    0.961729
+Matthews Corr. Coef (MCC): 0.850775
+
+--------------------------------------------------
+           DETAILED CLASSIFICATION REPORT         
+--------------------------------------------------
+                precision    recall  f1-score   support
+
+Legitimate (0)   0.858515  0.999218  0.923539    120275
+   Anomaly (1)   0.999128  0.844743  0.915472    127569
+
+      accuracy                       0.919708    247844
+     macro avg   0.928822  0.921981  0.919505    247844
+  weighted avg   0.930891  0.919708  0.919387    247844
+
